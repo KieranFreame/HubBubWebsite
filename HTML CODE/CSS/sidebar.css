@@ -1,0 +1,30 @@
+/*Keeps sidebar to the side*/
+.sidebar{
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: -1;
+	top: 130px;
+	left: 0;
+	bottom: 20px;
+	background-color: #f97575;
+	overflow-x: hidden;
+}
+
+/*Link configuration*/
+.sidebar a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: bold;
+	color: white;
+	display: block;
+	text-orientation: upright;
+}
+
+/*Moves main div to the left, but only if the sidebar is in place*/
+.main{
+	padding-left: 10px;
+	margin-left: 300px;
+}

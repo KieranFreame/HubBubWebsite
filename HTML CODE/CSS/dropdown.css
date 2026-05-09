@@ -1,0 +1,76 @@
+/*Configuration for navbar + icons*/
+.navbar{
+	background-color: black;
+	top: 70px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	z-index: 5;
+}
+
+.navbar a{
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding-left: 30px;
+	padding-top: 20px;
+	text-decoration: none;
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: bold;
+}
+
+.navbar #check{
+	position: absolute;
+	right: 75px;
+	width: auto;
+	height: 45%;
+}
+
+.navbar #search{
+	position: absolute;
+	right: 10px;
+	width: auto;
+	height: 45%;
+}
+
+.navbar #account{
+	position: absolute;
+	right: 150px;
+	width: auto;
+	height: 45%;
+}
+
+/*Gates 11:13: And the lord said let there be dropdown menus*/
+.dropdown-menu{
+	position: relative;
+	display: inline-block;
+	width: auto;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-image: linear-gradient(to right, #f97575, #6b06ba);
+	width: 175%;
+	top: 100%;
+	z-index: 1;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*Changes drop content from hidden to block when div is hovered over*/
+.dropdown-menu:hover .dropdown-content{
+	display: block;
+}
+
+
+
